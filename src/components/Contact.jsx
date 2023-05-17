@@ -82,7 +82,7 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_id",
+        "service_jy133ra",
         "template_id",
         ref.current,
         "public_key"
@@ -117,7 +117,7 @@ const Contact = () => {
           </Form>
         </Left>
         <Right>
-          <Map />
+          {/* <Map /> */}
         </Right>
       </Container>
     </Section>
